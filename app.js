@@ -1,13 +1,13 @@
 new Vue({
     el: '#vue-app',
     data: {
-        name: 'Kunal',
-        job: 'Student',
-        website: "https://kunalkatiyar.github.io",
-        websiteTag: '<a href="https://kunalkatiyar.github.io">Kunal Katiyar Website</a>',
-        age: 25,
-        x: 0,
-        y: 0
+        // name: 'Kunal',
+        // job: 'Student',
+        // website: "https://kunalkatiyar.github.io",
+        // websiteTag: '<a href="https://kunalkatiyar.github.io">Kunal Katiyar Website</a>',
+        // age: 25,
+        // x: 0,
+        // y: 0
     },
     methods: {
         greet: function(time){
@@ -25,6 +25,12 @@ new Vue({
         },
         click: function () {
             alert('You clicked me')
+        },
+        logName: function(){
+            console.log('You entered your name');
+        },
+        logAge: function(){
+            console.log('You entered your age');
         }
     }
 });
