@@ -10,8 +10,10 @@ new Vue({
         // b: 0
         // x: 0,
         // y: 0
-        available: false,
-        nearby: false
+        // available: false,
+        // nearby: false
+        error: false,
+        success: false
     },
     methods: {
         greet: function(time){
